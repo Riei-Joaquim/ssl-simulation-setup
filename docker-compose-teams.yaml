@@ -38,7 +38,7 @@ services:
       - match
       - guacamole
 
-team-robocinunificationb:
+  team-robocinunificationb:
     image: robocin/ssl-unification-robocup:latest
     user: "1000"
     restart: unless-stopped
